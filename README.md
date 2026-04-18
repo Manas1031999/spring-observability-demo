@@ -1,18 +1,42 @@
-# Spring Boot Observability Demo
+# 🚀 Spring Boot Observability System
 
-## Features
-- JWT Authentication
-- Redis (Blacklist + Rate Limiting)
-- Logging (Logback + Loki)
-- Monitoring (Prometheus + Grafana)
-- LLM Error Analysis
+A production-style backend system with authentication, monitoring, logging, and alerting.
 
-## Tech Stack
-- Spring Boot
+---
+
+## 🔥 Features
+
+- 📊 Monitoring with Prometheus
+- 📈 Visualization with Grafana
+- 📜 Centralized Logging with Loki
+- 🤖 LLM-based Error Analysis
+- 🚨 Alerting System (Grafana Alerts)
+
+---
+
+## 🧱 Tech Stack
+
+- Java + Spring Boot
 - MySQL
 - Redis
 - Docker
-- Grafana + Loki + Prometheus
+- Prometheus
+- Grafana
+- Loki
 
-## Run
+---
+
+## 🧪 Test APIs
+
+| Endpoint | Description |
+|--------|------------|
+| /test/error | Divide by zero error |
+| /test/array | Array out of bound exception |
+| /test/random | Random errors |
+
+---
+
+## 🐳 Run with Docker
+
+```bash
 docker-compose up -d
