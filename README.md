@@ -1,6 +1,6 @@
 # 🚀 Spring Boot Observability System
 
-A production-style backend system with authentication, monitoring, logging, and alerting.
+A production-style backend system with monitoring, logging, and alerting.
 
 ---
 
